@@ -11,12 +11,14 @@ html{
   left:0;
 }
 body{
-  background-size: contain;
+  background-size: cover;
 }
 body.default{
   background-image: url("../img/background.JPG");
 }
-
+header{
+  padding: 1em 0;
+}
 section{
   background: #fefefe;
   border-radius: 2px;
